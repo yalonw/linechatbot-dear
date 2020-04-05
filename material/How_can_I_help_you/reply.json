@@ -1,0 +1,37 @@
+[
+{
+    "type": "text", 
+    "text": "那我該如何幫助你呢？",
+    "quickReply": { 
+      "items": [
+        {
+          "type": "action",
+          "action": {
+            "type": "postback",
+            "label": "重新發問",
+            "text": "【::help::】umm....我再重新發一次問題",
+            "data": "tag=keep|unfinished&folder=What_should_I_do"
+          }
+        },
+        {
+          "type": "action",
+          "action": {
+            "type": "postback",
+            "label": "重新抽牌",
+            "text": "【::help::】umm....我還是同樣的問題",
+            "data": "tag=keep&folder=Magic_card"
+          }
+        },
+        {
+          "type": "action",
+          "action": {
+            "type": "postback",
+            "label": "No, thanks",
+            "text": "【::help::】沒關係，先這樣吧",
+            "data": "tag=end|feel_terrible&folder=My_pleasure"
+          }
+        }
+      ]
+    }
+}
+]

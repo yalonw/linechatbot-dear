@@ -1,0 +1,171 @@
+[
+    {
+        "type": "flex",
+        "altText": "哈囉 最近還好嗎？🤗",
+        "contents": {
+          "type": "carousel",
+          "contents": [
+            {
+              "type": "bubble",
+              "direction": "ltr",
+              "hero": {
+                "type": "image",
+                "url": "https://imgur.com/Y6sMcJr.png",
+                "size": "full",
+                "aspectRatio": "3:4",
+                "action": {
+                  "type": "postback",
+                  "label": "MAGIC CARD",
+                  "text": "【::help::】我選這一張",
+                  "data": "num=1&ans=1&folder=Was_answer_helpful"
+                }
+              }
+            },
+            {
+              "type": "bubble",
+              "direction": "ltr",
+              "hero": {
+                "type": "image",
+                "url": "https://imgur.com/Y6sMcJr.png",
+                "size": "full",
+                "aspectRatio": "3:4",
+                "action": {
+                  "type": "postback",
+                  "label": "MAGIC CARD",
+                  "text": "【::help::】我選這一張",
+                  "data": "num=1&ans=1&folder=Was_answer_helpful"
+                }
+              }
+            },
+            {
+              "type": "bubble",
+              "direction": "ltr",
+              "hero": {
+                "type": "image",
+                "url": "https://imgur.com/Y6sMcJr.png",
+                "size": "full",
+                "aspectRatio": "3:4",
+                "action": {
+                  "type": "postback",
+                  "label": "MAGIC CARD",
+                  "text": "【::help::】我選這一張",
+                  "data": "num=1&ans=1&folder=Was_answer_helpful"
+                }
+              }
+            },
+            {
+              "type": "bubble",
+              "direction": "ltr",
+              "hero": {
+                "type": "image",
+                "url": "https://imgur.com/Y6sMcJr.png",
+                "size": "full",
+                "aspectRatio": "3:4",
+                "action": {
+                  "type": "postback",
+                  "label": "MAGIC CARD",
+                  "text": "【::help::】我選這一張",
+                  "data": "num=1&ans=1&folder=Was_answer_helpful"
+                }
+              }
+            },
+            {
+              "type": "bubble",
+              "direction": "ltr",
+              "hero": {
+                "type": "image",
+                "url": "https://imgur.com/Y6sMcJr.png",
+                "size": "full",
+                "aspectRatio": "3:4",
+                "action": {
+                  "type": "postback",
+                  "label": "MAGIC CARD",
+                  "text": "【::help::】我選這一張",
+                  "data": "num=1&ans=1&folder=Was_answer_helpful"
+                }
+              }
+            },
+            {
+              "type": "bubble",
+              "direction": "ltr",
+              "hero": {
+                "type": "image",
+                "url": "https://imgur.com/Y6sMcJr.png",
+                "size": "full",
+                "aspectRatio": "3:4",
+                "action": {
+                  "type": "postback",
+                  "label": "MAGIC CARD",
+                  "text": "【::help::】我選這一張",
+                  "data": "num=1&ans=1&folder=Was_answer_helpful"
+                }
+              }
+            },
+            {
+              "type": "bubble",
+              "direction": "ltr",
+              "hero": {
+                "type": "image",
+                "url": "https://imgur.com/Y6sMcJr.png",
+                "size": "full",
+                "aspectRatio": "3:4",
+                "action": {
+                  "type": "postback",
+                  "label": "MAGIC CARD",
+                  "text": "【::help::】我選這一張",
+                  "data": "num=1&ans=1&folder=Was_answer_helpful"
+                }
+              }
+            },
+            {
+              "type": "bubble",
+              "direction": "ltr",
+              "hero": {
+                "type": "image",
+                "url": "https://imgur.com/Y6sMcJr.png",
+                "size": "full",
+                "aspectRatio": "3:4",
+                "action": {
+                  "type": "postback",
+                  "label": "MAGIC CARD",
+                  "text": "【::help::】我選這一張",
+                  "data": "num=1&ans=1&folder=Was_answer_helpful"
+                }
+              }
+            },
+            {
+              "type": "bubble",
+              "direction": "ltr",
+              "hero": {
+                "type": "image",
+                "url": "https://imgur.com/Y6sMcJr.png",
+                "size": "full",
+                "aspectRatio": "3:4",
+                "action": {
+                  "type": "postback",
+                  "label": "MAGIC CARD",
+                  "text": "【::help::】我選這一張",
+                  "data": "num=1&ans=1&folder=Was_answer_helpful"
+                }
+              }
+            },
+            {
+              "type": "bubble",
+              "direction": "ltr",
+              "hero": {
+                "type": "image",
+                "url": "https://imgur.com/Y6sMcJr.png",
+                "size": "full",
+                "aspectRatio": "3:4",
+                "action": {
+                  "type": "postback",
+                  "label": "MAGIC CARD",
+                  "text": "【::help::】我選這一張",
+                  "data": "num=1&ans=1&folder=Was_answer_helpful"
+                }
+              }
+            }
+          ]
+        }
+    }
+]

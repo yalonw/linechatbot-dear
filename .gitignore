@@ -1,0 +1,8 @@
+.vscode
+*.pyc
+*.swp
+*.swo
+__pycache__
+*.sqlite3
+line_secret_key
+test.py

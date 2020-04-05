@@ -1,0 +1,37 @@
+{
+  "size": {
+    "width": 2500,
+    "height": 843
+  },
+  "selected": true,
+  "name": "rich_menu_default",
+  "chatBarText": "讓我來幫幫你吧 ",
+  "areas": [
+    {
+      "bounds": {
+        "x": 85,
+        "y": 85,
+        "width": 675,
+        "height": 675
+      },
+      "action": {
+        "type": "postback",
+        "text": "【::help::】使用說明",
+        "data": "folder=How_to_use"
+      }
+    },
+    {
+      "bounds": {
+        "x": 905,
+        "y": 60,
+        "width": 1535,
+        "height": 725
+      },
+      "action": {
+        "type": "postback",
+        "text": "【::help::】我...該怎麼辦...",
+        "data": "folder=What_should_I_do"
+      }
+    }
+  ]
+}

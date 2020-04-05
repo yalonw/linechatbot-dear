@@ -1,0 +1,28 @@
+[
+{
+    "type": "text", 
+    "text": "不曉得是否有幫助到你😀",
+    "quickReply": { 
+      "items": [
+        {
+          "type": "action",
+          "action": {
+            "type": "postback",
+            "label": "YES",
+            "text": "【::help::】有的！謝謝妳",
+            "data": "tag=keep|feel_good&folder=Any_question"
+          }
+        },
+        {
+          "type": "action",
+          "action": {
+            "type": "postback",
+            "label": "NO",
+            "text": "【::help::】沒有... T^T",
+            "data": "tag=keep|feel_bad&folder=How_can_I_help_you"
+          }
+        }
+      ]
+    }
+}
+]

@@ -1,0 +1,28 @@
+[
+{
+    "type": "text", 
+    "text": "你還有其他糾結的問題嗎?",
+    "quickReply": { 
+      "items": [
+        {
+          "type": "action",
+          "action": {
+            "type": "postback",
+            "label": "YES",
+            "text": "【::help::】有的 Q^Q",
+            "data": "tag=keep|unfinished&folder=What_should_I_do"
+          }
+        },
+        {
+          "type": "action",
+          "action": {
+            "type": "postback",
+            "label": "NO",
+            "text": "【::help::】沒有了！謝謝妳",
+            "data": "tag=end|feel_great&folder=My_pleasure"
+          }
+        }
+      ]
+    }
+}
+]
