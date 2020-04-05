@@ -90,9 +90,10 @@ def process_follow_event(event):
     user_profile = line_bot_api.get_profile(event.source.user_id)
     with open("user_profile", "a", encoding='utf8') as f:
         f.write(json.dumps(vars(user_profile), sort_keys=True))
-        f.write(',','\n')
+        f.write(',\n')
         
     # Link rich menu to user
+    line_bot_api.unlink_rich_menu_from_user(event.source.user_id)
     line_bot_api.link_rich_menu_to_user(event.source.user_id, linkRichMenuId)
        
     # reply: read reply.josn and change to message_list
