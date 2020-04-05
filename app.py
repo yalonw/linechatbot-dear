@@ -127,14 +127,23 @@ def process_text_message(event):
         line_bot_api.reply_message(event.reply_token, reply_message_array)
 
 '''------------------- process_sticker_message -------------------'''
+from linebot.exceptions import LineBotApiError
 @handler.add(MessageEvent, message=StickerMessage)
 def process_sticker_message(event):
-    line_bot_api.reply_message(
-        event.reply_token,
-        StickerSendMessage(
-            package_id=event.message.package_id,
-            sticker_id=event.message.sticker_id)
-    ) 
+    try:
+        line_bot_api.reply_message(
+            event.reply_token,
+            StickerSendMessage(
+                package_id=event.message.package_id,
+                sticker_id=event.message.sticker_id)
+        )
+    except LineBotApiError: 
+        line_bot_api.reply_message(
+            event.reply_token,
+            StickerSendMessage(
+                package_id=11538,
+                sticker_id=51626502)
+        )
 
 '''------------------- process_postback_event -------------------'''
 from urllib.parse import parse_qs
