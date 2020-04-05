@@ -9,7 +9,7 @@
           "action": {
             "type": "postback",
             "label": "YES",
-            "text": "【::help::】有的！謝謝妳",
+            "text": "【::help::】有的！謝謝！",
             "data": "tag=keep|feel_good&folder=Any_question"
           }
         },

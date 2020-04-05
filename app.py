@@ -123,7 +123,7 @@ def process_text_message(event):
         line_bot_api.reply_message(event.reply_token, reply_message_array)
 
     else:
-        reply_message_array = TextSendMessage(text='Ummm...不太明白你的意思，可以再說一次嗎？')
+        reply_message_array = TextSendMessage(text='抱歉 我不太明白你的意思')
         line_bot_api.reply_message(event.reply_token, reply_message_array)
 
 
