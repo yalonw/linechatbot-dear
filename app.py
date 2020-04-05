@@ -80,7 +80,7 @@ def detect_json_array_to_new_message_array(fileName):
 
 
 '''==================== handler process Event ===================='''
-from linebot.models import FollowEvent, MessageEvent, TextMessage, PostbackEvent
+from linebot.models import FollowEvent, MessageEvent, TextMessage, StickerMessage, PostbackEvent
 import requests
 
 '''------------------- process_follow_event -------------------'''
@@ -126,6 +126,15 @@ def process_text_message(event):
         reply_message_array = TextSendMessage(text='抱歉 我不太明白你的意思')
         line_bot_api.reply_message(event.reply_token, reply_message_array)
 
+'''------------------- process_sticker_message -------------------'''
+@handler.add(MessageEvent, message=StickerMessage)
+def process_sticker_message(event):
+    line_bot_api.reply_message(
+        event.reply_token,
+        StickerSendMessage(
+            package_id=event.message.package_id,
+            sticker_id=event.message.sticker_id)
+    ) 
 
 '''------------------- process_postback_event -------------------'''
 from urllib.parse import parse_qs
